@@ -8,4 +8,4 @@ export class Cat extends Animal {
 
 const c = new Cat();
 c.say();
-c.run();
+// c.run();

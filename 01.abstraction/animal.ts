@@ -1,9 +1,13 @@
 export abstract class Animal {
   name: string;
 
+  constructor() {
+    console.log("init in animal class");
+  }
+
   abstract say(): void;
 
-  run(): void {
+  protected run(): void {
     console.log("Running");
   }
 }
