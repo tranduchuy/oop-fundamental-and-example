@@ -1,6 +1,6 @@
 import { Animal } from "../01.abstraction/animal";
 
-class Dog extends Animal {
+export class Dog extends Animal {
   constructor(name: string) {
     console.log("Init in dog class");
     super();
